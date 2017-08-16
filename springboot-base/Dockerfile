@@ -23,7 +23,7 @@ ENV MAVEN_HOME /usr/share/maven
 
 
 #Build & Run scripts
-COPY ./s2i/bin/ $STI_SCRIPTS_PATH
+COPY ./.s2i/bin/ $STI_SCRIPTS_PATH
 
 RUN chown -R 1001:0 /opt/app-root
 USER 1001
