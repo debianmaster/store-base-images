@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+
+echo "---> Putting jar in right location"
+cp -R /tmp/src/  . 

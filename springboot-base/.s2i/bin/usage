@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -e
+
+echo "---> Refer to .s2i folder for usage'
