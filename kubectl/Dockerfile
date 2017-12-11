@@ -13,4 +13,4 @@ RUN set -x && \
 
 USER kubectl
 
-ENTRYPOINT ["/usr/local/bin/kubectl"]
+CMD ["/usr/local/bin/kubectl"]
